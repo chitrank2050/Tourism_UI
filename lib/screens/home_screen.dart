@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import 'package:tourism_ui/widgets/destination_carousel.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -70,6 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   .map((MapEntry map) => _buildIcons(map.key))
                   .toList(),
             ),
+            SizedBox(height: 20.0),
+            DestinationCarousel()
           ],
         ),
       ),
