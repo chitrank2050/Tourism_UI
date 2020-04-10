@@ -28,13 +28,17 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 60.0,
         width: 60.0,
         decoration: BoxDecoration(
-          color: Theme.of(context).accentColor,
+          color: _selectedIndex == index
+              ? Theme.of(context).accentColor
+              : Color(0xFFE7EBEE),
           borderRadius: BorderRadius.circular(30.0),
         ),
         child: Icon(
           _icons[index],
           size: 20,
-          color: Theme.of(context).primaryColor,
+          color: _selectedIndex == index
+              ? Theme.of(context).primaryColor
+              : Color(0xFFB4C1C4),
         ),
       ),
     );
