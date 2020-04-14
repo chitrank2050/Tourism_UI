@@ -142,7 +142,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                   children: <Widget>[
                     Container(
                       margin: EdgeInsets.fromLTRB(40.0, 5.0, 20.0, 5.0),
-                      height: 170.0,
+                      height: 180.0,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: Colors.white,
@@ -160,7 +160,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Container(
-                                  width: 220.0,
+                                  width: 150.0,
                                   child: Text(
                                     activity.name,
                                     style: TextStyle(
@@ -198,7 +198,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                               children: <Widget>[
                                 Container(
                                   padding: EdgeInsets.all(5.0),
-                                  width: 70.0,
+                                  width: 80.0,
                                   decoration: BoxDecoration(
                                     color: Theme.of(context).accentColor,
                                     borderRadius: BorderRadius.circular(10.0),
@@ -209,7 +209,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                                 SizedBox(width: 10.0),
                                 Container(
                                   padding: EdgeInsets.all(5.0),
-                                  width: 70.0,
+                                  width: 80.0,
                                   decoration: BoxDecoration(
                                     color: Theme.of(context).accentColor,
                                     borderRadius: BorderRadius.circular(10.0),
